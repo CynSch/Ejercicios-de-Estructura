@@ -2,4 +2,4 @@
 
 LeerArchivo.Inicio();
 Menu.Listar();
-Console.Write("Cerrando...");
+Console.Write("Cerrando....");
