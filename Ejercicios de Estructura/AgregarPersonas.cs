@@ -60,11 +60,10 @@ namespace Ejercicios_de_Estructura
                         continue;
                     }
 
-                    //EL ERROR EMPIEZA ACA, SE QUEDA EN EL BUCLE CUANDO INGRESO EL NOMBRE
-                    bool ok = true;
+                   bool ok = true;
                     foreach (char caracter in nombre)
                     {
-                        if((caracter < 'A' || caracter > 'Z') || (caracter < 'a' || caracter > 'z'))
+                        if(caracter < 'A' || caracter > 'z')
                         {
                             Console.WriteLine("Debe utilizar letras solamente");
                             ok = false;
@@ -75,6 +74,7 @@ namespace Ejercicios_de_Estructura
                     {
                         continue;
                     }
+                    break;
                 }
 
                 //ciclo de Apellido
@@ -98,7 +98,7 @@ namespace Ejercicios_de_Estructura
                     bool ok = true;
                     foreach (char caracter in apellido)
                     {
-                        if ((caracter < 'A' || caracter > 'Z') || (caracter < 'a' || caracter > 'z'))
+                        if (caracter < 'A' || caracter > 'z')
                         {
                             Console.WriteLine("Debe utilizar letras solamente");
                             ok = false;
@@ -109,6 +109,7 @@ namespace Ejercicios_de_Estructura
                     {
                         continue;
                     }
+                    break;
                 }
 
                 //ciclo de Fecha de Nacimiento

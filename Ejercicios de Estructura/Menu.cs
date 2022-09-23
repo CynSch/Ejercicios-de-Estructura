@@ -14,7 +14,7 @@ namespace Ejercicios_de_Estructura
             do
             {
                 Console.WriteLine("1. Agregar persona");
-                Console.WriteLine("2. Guardar");
+                Console.WriteLine("2. Grabar");
                 Console.WriteLine("3. Ver lista de personas guardadas");
                 Console.WriteLine("4. Salir");
                 Console.WriteLine("Ingrese su opción");
