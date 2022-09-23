@@ -1,5 +1,5 @@
 ﻿using Ejercicios_de_Estructura;
 
 LeerArchivo.Inicio();
-Menú.Listar();
-GrabarArchivo.Iniciar();
+Menu.Listar();
+Console.Write("Cerrando...");

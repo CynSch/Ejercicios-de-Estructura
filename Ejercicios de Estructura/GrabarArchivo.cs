@@ -14,10 +14,14 @@ namespace Ejercicios_de_Estructura
 
             foreach (Persona persona in Persona.Todas)
             {
-                string linea = persona.Documento.ToString() + "|" + persona.Nombre + "|" + persona.Apellido + "|" 
+                string linea = persona.Documento.ToString() + "|" 
+                    + persona.Nombre + "|" 
+                    + persona.Apellido + "|" 
                     + persona.FechaDeNacimiento.ToString();
                 writer.WriteLine(linea);
             }
+
+            Console.WriteLine("Archivo guardado exitosamente");
         }
     }
 }
