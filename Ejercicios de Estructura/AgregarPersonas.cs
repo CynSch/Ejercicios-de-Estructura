@@ -130,7 +130,7 @@ namespace Ejercicios_de_Estructura
                         continue;
                     }
 
-                    if(fechadenacimientoingresada > DateOnly.FromDateTime(DateTime.Now))
+                    if(fechadenacimientoingresada >= DateOnly.FromDateTime(DateTime.Now))
                     {
                         Console.WriteLine("La fecha debe ser previa al dia de hoy (no futura)");
                         continue;
